@@ -1,0 +1,25 @@
+#menu>li{
+    display: inline-block;
+    list-style: none;
+}
+
+#menu>li>a:hover{
+    text-decoration: none;
+    background-color: aquamarine;
+    padding: 5px;
+}
+
+#info{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#info section{
+    background-color: aliceblue;
+    min-height: 100px;
+    padding: 10px;
+}
+
+@media only screen {
+    
+}
